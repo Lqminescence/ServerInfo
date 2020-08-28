@@ -1,0 +1,61 @@
+#####################################
+##                                 ##
+##          ServerInfo             ##
+##                                 ##
+#####################################
+
+
+#############     Commands     ############
+
+#      /discord
+#          -displays the server discord
+#
+#      /discord set [Link]
+#          -sets the discord link (can also be set in the config file)
+#
+#      /website
+#          -displays the websites link
+#
+#      /serverinfo
+#          -shows the custom join message
+#
+#
+
+
+
+
+# Sets Plugin Prefix #
+
+prefix: '&8&l[&6&lServer&7&lInfo&8&l]'
+
+# Sets the Discord link that appears in the message #
+
+discordLink: 'https://discord.gg/EXAMPLE'
+
+# Sets the message when the /discord command is sent #
+
+discordMessage: '%prefix% &r&fThe servers Discord is &9%discordLink%'
+
+
+# Sets the website link #
+
+websiteLink: 'https://example.network/home'
+
+# Sets the website message #
+
+websiteMessage: '%prefix% &r&FThe servers Website is &6%websiteLink%'
+
+## Sets whether or not to use the custom join message ##
+
+useJoinMessage: 'true'
+
+##  Set the message when player joins or when /serverinfo is sent  ##
+##  Put the '#' symbol in-front of lines you do not wish to use  ##
+
+joinMessageL1: '&f---------------------------------%prefix%&r&f---------------------------------'
+joinMessageL2: ''
+joinMessageL3: '                                      &7Welcome Back to &6&lExample Network!&r&f'
+joinMessageL4: '                                            &f Our &9&lDiscord &r&fis -'
+joinMessageL5: ''
+joinMessageL6: '                                      &9&l%discordLink%&r&f'
+joinMessageL7: '-------------------------------------------------------------------------------'

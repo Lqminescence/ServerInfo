@@ -1,0 +1,12 @@
+name: ServerInfo
+version: ${project.version}
+main: me.luminescence.serverinfo.Main
+api-version: 1.16
+authors: [Luminesence]
+description: Lets players get information about your server with simple commands!
+commands:
+  discord:
+    description: Shows you the server discord!
+  website:
+  serverinfo:
+
